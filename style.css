@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600&display=swap');
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #11213a;
+}
+
+section {
+    text-align: center;
+}
+
+.naughts-crosses-title {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 30px auto;
+    font-weight: 500;
+}
+
+.naughts-crosses-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 390px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 3px 3px 10px rgb(255 255 255 / 25%), 3px 3px 20px rgb(0 0 0 / 30%);
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.naughts-crosses-status span {
+    font-family: "Permanent Marker", cursive;
+}
+.naughts-crosses-status {
+    font-size: 30px;
+    color: #04c0b2;
+    font-weight: 500;
+    margin: 20px auto;
+    display: inline-block;
+}
+.naughts-crosses-restart {
+    background-color: rgb(4 192 178);
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 15px rgba(13, 126, 118, 0.64), 3px 3px 20px rgb(0 0 0 / 25%);
+    margin-top: 20px;
+}
+.naughts-crosses-rest-button{
+    width: 100%;
+}
+.naughts-crosses-restart i {
+    padding: 0 10px 0 0;
+}
